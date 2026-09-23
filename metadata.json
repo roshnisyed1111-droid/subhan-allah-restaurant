@@ -1,0 +1,6 @@
+{
+  "name": "Subhanalla Restaurant | Larkana Pakistan",
+  "description": "Authentic Pakistani taste, served with tradition in Larkana. Savor rich Chicken Karahi, fresh Anda Paratha, and legendary hospitality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

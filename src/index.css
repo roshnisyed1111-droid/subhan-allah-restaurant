@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-burgundy: #3A1115;
+  --color-maroon: #651F24;
+  --color-cream: #F7F0E3;
+  --color-ivory: #FFF9EF;
+  --color-charcoal: #191616;
+  --color-gold: #C59A52;
+  --color-gold-light: #E0BA75;
+  --color-accent-red: #9E252B;
+}
+
+/* Custom subtle noise texture */
+.bg-grain {
+  background-image: radial-gradient(rgba(197, 154, 82, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.bg-dark-grain {
+  background-image: radial-gradient(rgba(255, 249, 239, 0.04) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+/* 3D stage and float utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(1.5deg);
+  }
+}
+
+@keyframes particleDrift {
+  0% {
+    transform: translateY(0) translateX(0) scale(0.8);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(-35px) translateX(15px) scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-70px) translateX(-10px) scale(0.6);
+    opacity: 0;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 7s ease-in-out infinite;
+}
+
+.animate-particle {
+  animation: particleDrift 5s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
