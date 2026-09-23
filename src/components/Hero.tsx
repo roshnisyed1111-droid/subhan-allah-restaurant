@@ -36,7 +36,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenMenu, onOpenOrder }) => {
       {/* Background Image with Dark Burgundy Gradient Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_pakistani_feast_1790151860355.jpg"
+          src="/images/hero_pakistani_feast_1790151860355.jpg"
           alt="Pakistani culinary feast at Subhanalla Restaurant Larkana"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
@@ -188,7 +188,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenMenu, onOpenOrder }) => {
               {/* Floating Karahi / Food element */}
               <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-[#C59A52]/60 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.9)] animate-float-slow bg-[#191616]">
                 <img
-                  src="/src/assets/images/signature_karahi_1790151872155.jpg"
+                  src="/images/signature_karahi_1790151872155.jpg"
                   alt="Sizzling Subhanalla Karahi"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover scale-110 hover:scale-115 transition-transform duration-700"

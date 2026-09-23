@@ -36,7 +36,7 @@ export const SIGNATURE_DISHES: DishItem[] = [
     urduName: 'چکن کڑاہی',
     description: 'Fresh chicken cooked to perfection in a traditional iron wok with ripe country tomatoes, sliced green chilies, julienned ginger, and house-ground aromatic garam masala.',
     price: 'Rs. 1,450 / Full',
-    image: '/src/assets/images/signature_karahi_1790151872155.jpg',
+    image: '/images/signature_karahi_1790151872155.jpg',
     category: 'karahi',
     tag: 'House Special'
   },
@@ -46,7 +46,7 @@ export const SIGNATURE_DISHES: DishItem[] = [
     urduName: 'چکن تکہ بوٹی',
     description: 'Juicy chicken quarters and skewers marinated in spiced yogurt, red chilies, and smoked charcoal, served sizzling with fresh mint raita, onion rings, and lemon.',
     price: 'Rs. 450 / Quarter',
-    image: '/src/assets/images/signature_tikka_1790151884784.jpg',
+    image: '/images/signature_tikka_1790151884784.jpg',
     category: 'bbq',
     tag: 'Charcoal Sizzler'
   },
@@ -56,7 +56,7 @@ export const SIGNATURE_DISHES: DishItem[] = [
     urduName: 'انڈا پراٹھا',
     description: 'Crisp, golden flaky tawa paratha with multi-layered dough paired with a spiced golden fried egg or fluffy omelette. The pride of Larkana breakfast.',
     price: 'Rs. 160',
-    image: '/src/assets/images/signature_anda_paratha_1790151895917.jpg',
+    image: '/images/signature_anda_paratha_1790151895917.jpg',
     category: 'paratha',
     tag: 'Breakfast Classic'
   }
@@ -67,35 +67,35 @@ export const GALLERY_ITEMS = [
     id: 'g-1',
     title: 'Authentic Sizzling Karahi Feast',
     caption: 'Freshly prepared upon order with traditional spices',
-    image: '/src/assets/images/signature_karahi_1790151872155.jpg',
+    image: '/images/signature_karahi_1790151872155.jpg',
     span: 'col-span-12 md:col-span-7 row-span-2'
   },
   {
     id: 'g-2',
     title: 'Smoky Charcoal Chicken Tikka',
     caption: 'Grilled over live red-hot charcoal embers',
-    image: '/src/assets/images/signature_tikka_1790151884784.jpg',
+    image: '/images/signature_tikka_1790151884784.jpg',
     span: 'col-span-12 md:col-span-5'
   },
   {
     id: 'g-3',
     title: 'Tandoor Naan & Roti',
     caption: 'Handcrafted dough baked in clay tandoor',
-    image: '/src/assets/images/gallery_tandoor_naan_1790151923241.jpg',
+    image: '/images/gallery_tandoor_naan_1790151923241.jpg',
     span: 'col-span-12 md:col-span-5'
   },
   {
     id: 'g-4',
     title: 'Crispy Flaky Anda Paratha',
     caption: 'Golden layers with farm-fresh desi egg',
-    image: '/src/assets/images/signature_anda_paratha_1790151895917.jpg',
+    image: '/images/signature_anda_paratha_1790151895917.jpg',
     span: 'col-span-12 md:col-span-6'
   },
   {
     id: 'g-5',
     title: 'Karak Doodh Patti Chai',
     caption: 'Brewed slow with rich milk and cardamom',
-    image: '/src/assets/images/gallery_pakistani_tea_1790151934436.jpg',
+    image: '/images/gallery_pakistani_tea_1790151934436.jpg',
     span: 'col-span-12 md:col-span-6'
   }
 ];

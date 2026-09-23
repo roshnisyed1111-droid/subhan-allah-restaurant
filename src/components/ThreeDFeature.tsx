@@ -47,7 +47,7 @@ export const ThreeDFeature: React.FC = () => {
       title: 'Sizzling Iron Karahi',
       urdu: 'شنواری و لاہوری ذائقہ',
       desc: 'Forged in heavy iron woks to seal in succulent chicken juices with fresh red tomatoes, crushed coriander, cumin seeds, and ginger juliennes.',
-      image: '/src/assets/images/centerpiece_karahi_1790151907065.jpg',
+      image: '/images/centerpiece_karahi_1790151907065.jpg',
       spices: ['Whole Cumin', 'Ginger Juliennes', 'Black Pepper', 'Green Chili', 'Tomato Masala'],
       heat: 'Cooked over 400°C live flame',
       texture: 'Rich Tari Gravy'
@@ -56,7 +56,7 @@ export const ThreeDFeature: React.FC = () => {
       title: 'Crisp Multi-Layered Anda Paratha',
       urdu: 'خستہ و لذیذ انڈا پراٹھا',
       desc: 'Hand-rolled spiral dough layers, griddled with pure desi ghee on heavy cast iron tawa until blistered gold, served with seasoned desi egg.',
-      image: '/src/assets/images/signature_anda_paratha_1790151895917.jpg',
+      image: '/images/signature_anda_paratha_1790151895917.jpg',
       spices: ['Desi Ghee', 'Ajwain & Kalonji', 'Cracked Pepper', 'Farm Egg'],
       heat: 'Evenly blistered golden on tawa',
       texture: 'Flaky & Melts in Mouth'
@@ -65,7 +65,7 @@ export const ThreeDFeature: React.FC = () => {
       title: 'Karak Doodh Patti Chai',
       urdu: 'کڑک دودھ پتی چائے',
       desc: 'Full-fat fresh milk boiled slow with crushed green cardamom pods and premium black tea leaves until deep amber color and velvet smooth.',
-      image: '/src/assets/images/gallery_pakistani_tea_1790151934436.jpg',
+      image: '/images/gallery_pakistani_tea_1790151934436.jpg',
       spices: ['Green Cardamom', 'Sindhi Buffalo Milk', 'Black CTC Tea', 'Raw Sugar'],
       heat: 'Simmered slow in copper degchi',
       texture: 'Rich, Creamy & Aromatic'

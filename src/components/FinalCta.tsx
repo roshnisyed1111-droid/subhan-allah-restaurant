@@ -12,7 +12,7 @@ export const FinalCta: React.FC<FinalCtaProps> = ({ onOpenMenu, onOpenOrder }) =
       {/* Cinematic Food Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_pakistani_feast_1790151860355.jpg"
+          src="/images/hero_pakistani_feast_1790151860355.jpg"
           alt="Subhanalla Restaurant Larkana Desi Feast"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105"

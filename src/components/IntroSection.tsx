@@ -40,7 +40,7 @@ export const IntroSection: React.FC<IntroSectionProps> = ({ onOpenMenu }) => {
 
             <div className="relative rounded-sm overflow-hidden shadow-2xl bg-[#191616] group">
               <img
-                src="/src/assets/images/signature_karahi_1790151872155.jpg"
+                src="/images/signature_karahi_1790151872155.jpg"
                 alt="Close-up of Subhanalla Signature Desi Karahi"
                 referrerPolicy="no-referrer"
                 className="w-full h-[420px] sm:h-[500px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
